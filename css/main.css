@@ -79,6 +79,15 @@ img {
 	background: var(--clr-primary-dark);
 }
 
+.section-title {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.subsection-title {
+	font-size: 1.2rem;
+}
+
 .spacing-1 {
 	padding: 1em 0.75em;
 }
@@ -154,4 +163,21 @@ img {
 
 .hero__wrapper .btn {
 	font-size: 1.3em;
+}
+/* feature section */
+.feature__box {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.feature__icon {
+	margin: 0 .5em;
+	padding: .5em;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--clr-primary-light);
+	border-radius: 50%;
 }
