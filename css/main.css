@@ -99,7 +99,6 @@ label {
 
 .form-group input {
 	height: 2rem;
-	padding: 0.25em 0.5em;
 }
 
 .form-group textarea {
@@ -108,6 +107,7 @@ label {
 
 .form-group input,
 .form-group textarea {
+	padding: 0.5em;
 	border: none;
 	border-radius: 0.3em;
 	width: 100%;
