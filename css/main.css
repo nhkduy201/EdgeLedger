@@ -181,3 +181,19 @@ img {
 	background: var(--clr-primary-light);
 	border-radius: 50%;
 }
+/* about section*/
+.about__img {
+	display: none;
+}
+
+.about__text ul {
+	margin-bottom: 0.5em;
+}
+
+.about__text ul li {
+	margin-bottom: 0.5em;
+}
+
+.about__text .section-title {
+	text-align: left;
+}
