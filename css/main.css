@@ -6,7 +6,7 @@
 }
 
 html {
-	--clr-primary-dark: #91ab44;
+	--clr-primary-dark: #8ca836;
 	--clr-primary-light: #abc647;
 	--clr-dark: #202020;
 	--clr-light: #fff;
@@ -55,7 +55,7 @@ label {
 }
 
 .secondary-bg {
-	background-color: var(--clr-primary-light);
+	background-color: var(--clr-primary-dark);
 }
 
 .btn {
