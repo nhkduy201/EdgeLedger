@@ -84,3 +84,27 @@ img {
 .spacing-2 > * + * {
 	margin-top: 2em;
 }
+
+/* header */
+.nav__brand {
+	text-align: center;
+}
+
+.nav__brand i {
+	padding: 0 0.2em;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: center;
+}
+
+.nav__item + .nav__item {
+	margin-left: 0.5em;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+	background: var(--clr-primary-light);
+	color: var(--clr-light);
+}
