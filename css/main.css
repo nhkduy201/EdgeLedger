@@ -1,1 +1,86 @@
+/* setting */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
+html {
+	--clr-primary-dark: #91ab44;
+	--clr-primary-light: #abc647;
+	--clr-dark: #000;
+	--clr-light: #fff;
+}
+
+/* general tag */
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: var(--clr-light);
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* utitlity class */
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.primary-accent {
+	color: var(--clr-primary-dark);
+}
+
+.dark-text {
+	color: var(--clr-dark);
+}
+
+.primary-bg {
+	background-color: var(--clr-dark);
+}
+
+.secondary-bg {
+	background-color: var(--clr-primary-light);
+}
+
+.btn {
+	display: inline-block;
+	background: var(--clr-dark);
+	color: var(--clr-light);
+	padding: .5em 1em;
+	border: none;
+	border-radius: .3em;
+	cursor: pointer;
+}
+
+.btn-light {
+	background: var(--clr-primary-light);
+	color: var(--clr-light);
+}
+
+.spacing-1 {
+	padding: 1em;
+}
+
+.spacing-1 > * + * {
+	margin-top: 1em;
+}
+
+.spacing-2 {
+	padding: 2em;
+}
+
+.spacing-2 > * + * {
+	margin-top: 2em;
+}
