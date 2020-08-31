@@ -229,6 +229,11 @@ label {
 	text-align: left;
 }
 
+.about__subimg {
+	display: none;
+	width: 50%;
+}
+
 /* client section */
 .client .section-title {
 	color: var(--clr-dark);
@@ -285,6 +290,18 @@ label {
 	}
 	.nav__list {
 		margin-top: 0;
+	}
+
+	.about__team {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+
+	.about__subimg {
+		display: block;
+		margin-left: 5vw;
 	}
 }
 
@@ -356,5 +373,13 @@ label {
 
 	.about__text {
 		width: 35%;
+	}
+
+	.about__team {
+		display: block;
+	}
+
+	.about__subimg {
+		display: none;
 	}
 }
