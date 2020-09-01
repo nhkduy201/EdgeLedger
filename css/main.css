@@ -15,6 +15,14 @@ html {
 	font-family: "Open Sans", sans-serif;
 	color: var(--clr-light);
 	line-height: 1.6;
+	scroll-behavior: smooth;
+}
+
+#home,
+#what,
+#who,
+#contact {
+	scroll-margin-top: 8em;
 }
 
 /* general tag */
@@ -294,6 +302,13 @@ label {
 }
 
 @media (min-width: 576px) {
+	#home,
+	#what,
+	#who,
+	#contact {
+		scroll-margin-top: 4.9em;
+	}
+
 	.nav {
 		display: flex;
 		justify-content: space-between;
