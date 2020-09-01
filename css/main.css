@@ -129,6 +129,17 @@ label {
 }
 
 /* header */
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.nav {
+	padding-bottom: 1.25em;
+}
+
 .nav__brand {
 	text-align: center;
 }
