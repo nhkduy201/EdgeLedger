@@ -130,7 +130,7 @@ label {
 
 /* header */
 .header {
-	position: fixed;
+	position: sticky;
 	width: 100%;
 	top: 0;
 	z-index: 1000;
@@ -168,7 +168,6 @@ label {
 	background: url('../img/showcase.jpg') no-repeat center center/cover;
 	position: relative;
 	height: calc(500px + 15vw);
-	margin-top: 8em;
 	text-align: center;
 	z-index: 1;
 }
@@ -302,10 +301,6 @@ label {
 	}
 	.nav__list {
 		margin-top: 0;
-	}
-
-	.hero {
-		margin-top: 4.9em;
 	}
 
 	.about__team {
