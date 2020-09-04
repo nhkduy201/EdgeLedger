@@ -71,10 +71,12 @@ label {
 	background: var(--clr-dark);
 	color: var(--clr-light);
 	text-transform: uppercase;
+	font-size: 1em;
 	padding: .1em .2em;
 	border: none;
 	border-radius: .3em;
 	cursor: pointer;
+	transition: background-color 0.25s ease-in-out;
 }
 
 .btn:hover,
